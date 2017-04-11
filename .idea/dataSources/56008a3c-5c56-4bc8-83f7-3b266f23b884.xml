@@ -9,8 +9,8 @@
     </database>
     <schema id="3" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2017-04-11.16:45:37.529</IntrospectionTimestamp>
-      <IntrospectionStateNumber>1225</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2017-04-11.17:42:25.092</IntrospectionTimestamp>
+      <IntrospectionStateNumber>1280</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -30,14 +30,14 @@
       <ObjectId>12087</ObjectId>
     </schema>
     <sequence id="9" parent="3" name="employees_id_seq">
-      <ObjectId>25475</ObjectId>
-      <StateNumber>1224</StateNumber>
+      <ObjectId>25545</ObjectId>
+      <StateNumber>1279</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <BelongsToColumn>1</BelongsToColumn>
     </sequence>
     <sequence id="10" parent="3" name="stores_id_seq">
-      <ObjectId>25464</ObjectId>
-      <StateNumber>1223</StateNumber>
+      <ObjectId>25534</ObjectId>
+      <StateNumber>1278</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <BelongsToColumn>1</BelongsToColumn>
     </sequence>
@@ -46,12 +46,12 @@
       <StateNumber>982</StateNumber>
     </table>
     <table id="12" parent="3" name="employees">
-      <ObjectId>25477</ObjectId>
-      <StateNumber>1224</StateNumber>
+      <ObjectId>25547</ObjectId>
+      <StateNumber>1279</StateNumber>
     </table>
     <table id="13" parent="3" name="stores">
-      <ObjectId>25466</ObjectId>
-      <StateNumber>1223</StateNumber>
+      <ObjectId>25536</ObjectId>
+      <StateNumber>1278</StateNumber>
     </table>
     <column id="14" parent="11" name="key">
       <Position>1</Position>
@@ -91,53 +91,53 @@
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1224</StateNumber>
+      <StateNumber>1279</StateNumber>
       <SequenceName>employees_id_seq</SequenceName>
       <DefaultExpression>nextval(&apos;employees_id_seq&apos;::regclass)</DefaultExpression>
     </column>
     <column id="21" parent="12" name="store_id">
       <Position>2</Position>
       <DataType>integer|0</DataType>
-      <StateNumber>1224</StateNumber>
+      <StateNumber>1279</StateNumber>
     </column>
     <column id="22" parent="12" name="first_name">
       <Position>3</Position>
       <DataType>varchar|0</DataType>
-      <StateNumber>1224</StateNumber>
+      <StateNumber>1279</StateNumber>
     </column>
     <column id="23" parent="12" name="last_name">
       <Position>4</Position>
       <DataType>varchar|0</DataType>
-      <StateNumber>1224</StateNumber>
+      <StateNumber>1279</StateNumber>
     </column>
     <column id="24" parent="12" name="hourly_rate">
       <Position>5</Position>
       <DataType>integer|0</DataType>
-      <StateNumber>1224</StateNumber>
+      <StateNumber>1279</StateNumber>
     </column>
     <column id="25" parent="12" name="created_at">
       <Position>6</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1224</StateNumber>
+      <StateNumber>1279</StateNumber>
     </column>
     <column id="26" parent="12" name="updated_at">
       <Position>7</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1224</StateNumber>
+      <StateNumber>1279</StateNumber>
     </column>
     <index id="27" parent="12" name="employees_pkey">
-      <ObjectId>25484</ObjectId>
+      <ObjectId>25554</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="28" parent="12" name="index_employees_on_store_id">
-      <ObjectId>25486</ObjectId>
+      <ObjectId>25556</ObjectId>
       <ColNames>store_id</ColNames>
     </index>
     <key id="29" parent="12" name="employees_pkey">
-      <ObjectId>25485</ObjectId>
+      <ObjectId>25555</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>employees_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -146,49 +146,49 @@
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1223</StateNumber>
+      <StateNumber>1278</StateNumber>
       <SequenceName>stores_id_seq</SequenceName>
       <DefaultExpression>nextval(&apos;stores_id_seq&apos;::regclass)</DefaultExpression>
     </column>
     <column id="31" parent="13" name="name">
       <Position>2</Position>
       <DataType>varchar|0</DataType>
-      <StateNumber>1223</StateNumber>
+      <StateNumber>1278</StateNumber>
     </column>
     <column id="32" parent="13" name="annual_revenue">
       <Position>3</Position>
       <DataType>integer|0</DataType>
-      <StateNumber>1223</StateNumber>
+      <StateNumber>1278</StateNumber>
     </column>
     <column id="33" parent="13" name="mens_apparel">
       <Position>4</Position>
       <DataType>boolean|0</DataType>
-      <StateNumber>1223</StateNumber>
+      <StateNumber>1278</StateNumber>
     </column>
     <column id="34" parent="13" name="womens_apparel">
       <Position>5</Position>
       <DataType>boolean|0</DataType>
-      <StateNumber>1223</StateNumber>
+      <StateNumber>1278</StateNumber>
     </column>
     <column id="35" parent="13" name="created_at">
       <Position>6</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1223</StateNumber>
+      <StateNumber>1278</StateNumber>
     </column>
     <column id="36" parent="13" name="updated_at">
       <Position>7</Position>
       <DataType>timestamp|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1223</StateNumber>
+      <StateNumber>1278</StateNumber>
     </column>
     <index id="37" parent="13" name="stores_pkey">
-      <ObjectId>25473</ObjectId>
+      <ObjectId>25543</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="38" parent="13" name="stores_pkey">
-      <ObjectId>25474</ObjectId>
+      <ObjectId>25544</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>stores_pkey</UnderlyingIndexName>
       <Primary>1</Primary>

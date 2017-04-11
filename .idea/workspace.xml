@@ -6,6 +6,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/exercise_1.rb" afterPath="$PROJECT_DIR$/exercises/exercise_1.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/exercise_6.rb" afterPath="$PROJECT_DIR$/exercises/exercise_6.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/exercise_7.rb" afterPath="$PROJECT_DIR$/exercises/exercise_7.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,18 +80,28 @@
       <file leaf-file-name="exercise_1.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercises/exercise_1.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="209">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exercise_6.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exercise_6.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercises/exercise_6.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="81" lean-forward="true" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
+            <state relative-caret-position="361">
+              <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exercise_7.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercises/exercise_7.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -109,8 +120,9 @@
         <option value="$PROJECT_DIR$/exercises/exercise_3.rb" />
         <option value="$PROJECT_DIR$/exercises/exercise_4.rb" />
         <option value="$PROJECT_DIR$/exercises/exercise_5.rb" />
-        <option value="$PROJECT_DIR$/exercises/exercise_1.rb" />
         <option value="$PROJECT_DIR$/exercises/exercise_6.rb" />
+        <option value="$PROJECT_DIR$/exercises/exercise_1.rb" />
+        <option value="$PROJECT_DIR$/exercises/exercise_7.rb" />
       </list>
     </option>
   </component>
@@ -362,12 +374,12 @@
       <updated>1491928630546</updated>
       <workItem from="1491928631914" duration="3155000" />
       <workItem from="1491932662239" duration="2525000" />
-      <workItem from="1491936931725" duration="3264000" />
+      <workItem from="1491936931725" duration="4798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8944000" />
+    <option name="totallyTimeSpent" value="10478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -501,14 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/exercise_1.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/e9cced2/56008a3c-5c56-4bc8-83f7-3b266f23b884/ar_exercises.public.stores">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -537,8 +541,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercises/exercise_6.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="81" lean-forward="true" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
+        <state relative-caret-position="361">
+          <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/exercise_1.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercises/exercise_7.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
           <folding />
         </state>
       </provider>
