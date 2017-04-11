@@ -9,6 +9,16 @@ class Store < ActiveRecord::Base
   has_many :employees
   validates :name, length: { minimum: 3 }
   validates :annual_revenue, numericality: {greater_than_or_equal_to: 0, only_integer: true}
+
+  before_destroy do
+    if !empty?
+      abort("Can't not destroy this store");
+    end
+  end
+
+  def empty?
+    self.employees.size <= 0
+  end
 end
 
 burnaby = Store.new

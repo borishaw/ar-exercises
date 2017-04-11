@@ -14,6 +14,12 @@ class Employee < ActiveRecord::Base
   validates_presence_of :first_name, :last_name
   validates :hourly_rate, numericality: {greater_than: 40, less_than: 200}
   validates_associated :store
+
+  before_create :create_password
+
+  def create_password
+    self.password = rand(10**8).to_s
+  end
 end
 
 @store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
