@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2404c87c-75b8-426d-b066-1f6e0b908dfd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/IRB_console__ar_exercises.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/56008a3c-5c56-4bc8-83f7-3b266f23b884/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/56008a3c-5c56-4bc8-83f7-3b266f23b884/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/56008a3c-5c56-4bc8-83f7-3b266f23b884/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/56008a3c-5c56-4bc8-83f7-3b266f23b884/_metadata_/metadata.values.at" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ar-exercises.iml" afterPath="$PROJECT_DIR$/.idea/ar-exercises.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/exercise_2.rb" afterPath="$PROJECT_DIR$/exercises/exercise_2.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/exercise_1.rb" afterPath="$PROJECT_DIR$/exercises/exercise_1.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercises/exercise_3.rb" afterPath="$PROJECT_DIR$/exercises/exercise_3.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -104,46 +101,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="exercise_1.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises/exercise_1.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exercise_2.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises/exercise_2.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exercise_3.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="exercise_3.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercises/exercise_3.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ar_exercises.public.stores" pinned="false" current-in-tab="true">
-        <entry file="dbDummy://dbtable:/e9cced2/56008a3c-5c56-4bc8-83f7-3b266f23b884/ar_exercises.public.stores">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="209">
+              <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -158,8 +120,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/exercises/exercise_1.rb" />
         <option value="$PROJECT_DIR$/exercises/exercise_2.rb" />
+        <option value="$PROJECT_DIR$/exercises/exercise_1.rb" />
+        <option value="$PROJECT_DIR$/exercises/exercise_3.rb" />
       </list>
     </option>
   </component>
@@ -411,12 +374,12 @@
       <updated>1491928630546</updated>
       <workItem from="1491928631914" duration="3155000" />
       <workItem from="1491932662239" duration="2525000" />
-      <workItem from="1491936931725" duration="561000" />
+      <workItem from="1491936931725" duration="786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6241000" />
+    <option name="totallyTimeSpent" value="6466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -517,10 +480,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/e9cced2/56008a3c-5c56-4bc8-83f7-3b266f23b884/ar_exercises.public.stores">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exercises/exercise_1.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        <state relative-caret-position="551">
+          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -535,21 +511,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exercises/exercise_3.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e9cced2/56008a3c-5c56-4bc8-83f7-3b266f23b884/ar_exercises.public.stores">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding />
         </state>
       </provider>
